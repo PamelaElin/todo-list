@@ -9,7 +9,7 @@ const EditToDo = () => {
 	const params = useParams();
 	const dispatch = useDispatch();
 	const todoApp = useSelector((store) => store.todoApp);
-	console.log(params.id);
+
 	const navigate = useNavigate();
 	const existingToDo= todoApp.filter((todo) => todo.id === params.id);
 	const { title, text } = existingToDo[0];

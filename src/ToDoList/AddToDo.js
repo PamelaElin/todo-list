@@ -23,7 +23,7 @@ const AddToDo = () => {
 				text: values.text,
 			})
 		);
-		console.log(values);
+		
 		todoApp();
 	};
 	return (
