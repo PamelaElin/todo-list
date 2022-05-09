@@ -35,12 +35,13 @@ const AddToDo = () => {
 				inputProps={{ type: 'text', placeholder: 'Title' }}
 				maxLength='20'
 			/>
-			<TextField
-
+			<textarea
+				className='resize-none bg-gray-700  p-2 outline-none rounded-md inputGeneral  text-white'
 				value={values.text}
 				onChange={(e) => setValues({ ...values, text: e.target.value })}
-				inputProps={{ type: 'text', placeholder: 'ToDo' }}
-				maxLength='100'
+				placeholder= 'ToDo' 
+				rows="4" cols="4"
+				
                 
 			/>
 			<div className='flex mx-2'>

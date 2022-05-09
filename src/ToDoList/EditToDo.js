@@ -37,13 +37,16 @@ const EditToDo = () => {
 				inputProps={{ type: 'tex', placeholder: 'Edit title' }}
 				maxLength='20'
 			/>
-			<TextField
-				
+			<textarea
+				className='resize-none bg-gray-700  p-2 outline-none rounded-md inputGeneral  text-white'
 				value={values.text}
 				onChange={(e) => setValues({ ...values, text: e.target.value })}
-				inputProps={{ type: 'text', placeholder: 'Edit Text' }}
-				maxLength='100'
+				placeholder= 'Edit Text' 
+				rows="4" cols="4"
+				
+                
 			/>
+			
 			
 			<Button onClick={handleEditToDO}>Edit</Button>
 		</div>

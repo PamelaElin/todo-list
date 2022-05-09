@@ -30,7 +30,7 @@ const ToDoList = () => {
 					<div className=' font-normal text-gray-600 '>{todo.text}</div>
 				</div>
 
-				<div className='flex text-lime-50 justify-end'>
+				<div className='flex text-lime-50 justify-end gap-5'>
 					<Link to={`edit-todo/${todo.id}`}>
 						{' '}
 						<button>
@@ -46,7 +46,7 @@ const ToDoList = () => {
 
 	return (
 		<div className=' w-[17rem] md:w-screen md:container'>
-			<Link to={'/add-todo'}>
+			<Link to={'/add-todo'} className='flex justify-center'>
 				<Button>Add todo list</Button>
 			</Link>
 			<div className='md:grid md:grid-cols-2 gap-2' >
