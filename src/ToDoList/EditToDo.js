@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom';
-import Button from '../../components/button/Button';
-import TextField from '../../components/textField/TextField';
-import { editTodo } from '../../redux/ToDoSlice';
+import Button from '../components/Button/Button';
+import TextField from '../components/TextField/TextField';
+import { editTodo } from '../redux/ToDoSlice';
 
 const EditToDo = () => {
 	const params = useParams();

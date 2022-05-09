@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import Button from '../../components/button/Button';
-import TextField from '../../components/textField/TextField';
+import Button from '../components/Button/Button';
+import TextField from '../components/TextField/TextField';
 import { v4 as uuidv4 } from 'uuid';
-import { addTodo } from '../../redux/ToDoSlice';
+import { addTodo } from '../redux/ToDoSlice';
 
 const AddToDo = () => {
 	const dispatch = useDispatch();

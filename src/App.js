@@ -1,8 +1,8 @@
 
 import { Route, Routes } from 'react-router-dom';
-import ToDoList from './features/users/ToDoList'
-import AddToDo from './features/users/AddToDo';
-import EditToDo from './features/users/EditToDo';
+import ToDoList from './ToDoList/ToDoList'
+import AddToDo from './ToDoList/AddToDo';
+import EditToDo from './ToDoList/EditToDo';
 
 
 function App() {
