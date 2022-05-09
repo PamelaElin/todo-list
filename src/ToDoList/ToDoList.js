@@ -18,7 +18,7 @@ const ToDoList = () => {
 		todoApp.map((todo) => (
 			<div
 				key={todo.id}
-				className='bg-slate-400 p-1 mb-2 rounded-lg  break-words'
+				className='bg-slate-400 p-1 mb-2 rounded-lg  break-words '
 			>
 				<div className='flex flex-col '>
 					<div className='  font-bold text-lg text-gray-700  '>
@@ -27,7 +27,7 @@ const ToDoList = () => {
 					
 					
 					</div>
-					<div className=' font-normal text-gray-600 '>{todo.text}</div>
+					<div className=' font-normal text-gray-600 whitespace-pre'>{todo.text}</div>
 				</div>
 
 				<div className='flex text-lime-50 justify-end gap-5'>

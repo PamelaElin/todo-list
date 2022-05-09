@@ -7,7 +7,7 @@ import EditToDo from './ToDoList/EditToDo';
 
 function App() {
   return (
-		<div className='  flex justify-center w-[100%] mt-28 '>
+		<div className='  flex justify-center w-[100%] mt-12 md:mt-28 '>
 			<div>
 				<h1 className='text-center text-pink-500 text-4xl  rounded-md p-2 font-serif '>ToDo list</h1>
 				<Routes>
