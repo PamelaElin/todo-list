@@ -2,7 +2,7 @@ import React from 'react';
 import { AiOutlineEdit, AiOutlineDelete } from 'react-icons/ai';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import Button from '../components/Button/Button';
+import Button from '../components/Button';
 import { deleteTodo } from '../redux/ToDoSlice';
 
 const ToDoList = () => {
